@@ -4,8 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        * {
+            background:  url(image/szabo-viktor-28ZbKOWiZfs-unsplash.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        div {
+            font-size: larger;
+            font-family: cursive;
+            text-align: center;
+            font-weight: 900;
+            color:darkblue
+        }
+    </style>
 </head>
 <body>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nihil, autem blanditiis omnis nesciunt cum illum sed. Eum voluptas consequuntur, tempore nemo dolorem nisi minus eligendi, laboriosam omnis, odio quos.</p>
+    <div>
+        {
+        <br>    "C_Cpp.default.cppStandard": "c++20",
+        <br>    "C_Cpp.default.cStandard": "c11",
+           <br> "terminal.integrated.defaultProfile.windows": "Git Bash",
+           <br> "code-runner.runInTerminal": true,
+           <br> "code-runner.saveAllFilesBeforeRun": true,
+           <br> "code-runner.terminalRoot": "/",
+           <br> "code-runner.executorMapByGlob": {
+            <br>
+               <br> "pom.xml": "cd $dir && mvn clean package"
+           <br> },
+           <br> "code-runner.executorMap": {
+               <br> "javascript": "node",
+               <br> "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+               <br> "zig": "zig run",
+               <br> "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+               <br> "php": "php",
+               <br> "python": "python -u",
+               <br> "perl": "perl",
+               <br> "perl6": "perl6",
+               <br> "ruby": "ruby",
+               <br> "go": "go run",
+               <br> "lua": "lua",
+               <br> "groovy": "groovy",
+               <br> "powershell": "powershell -ExecutionPolicy ByPass -File",
+               <br> "bat": "cmd /c",
+               <br> "shellscript": "bash",
+               <br> "fsharp": "fsi",
+               <br> "csharp": "scriptcs",
+               <br> "vbscript": "cscript //Nologo",
+               <br> "typescript": "ts-node",
+               <br> "coffeescript": "coffee",
+               <br> "scala": "scala",
+               <br> "swift": "swift",
+               <br> "julia": "julia",
+               <br> "crystal": "crystal",
+               <br> "ocaml": "ocaml",
+               <br> "r": "Rscript",
+               <br> "applescript": "osascript",
+               <br> "clojure": "lein exec",
+               <br> "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+               <br> "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+               <br> "racket": "racket",
+               <br> "scheme": "csi -script",
+               <br> "ahk": "autohotkey",
+               <br> "autoit": "autoit3",
+               <br> "dart": "dart",
+               <br> "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+               <br> "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+               <br> "haskell": "runghc",
+               <br> "nim": "nim compile --verbosity:0 --hints:off --run",
+               <br> "lisp": "sbcl --script",
+               <br> "kit": "kitc --run",
+               <br> "v": "v run",
+               <br> "sass": "sass --style expanded",
+               <br> "scss": "scss --style expanded",
+               <br> "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+               <br> "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+               <br> "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+               <br> "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+               <br> "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+               <br> "sml": "cd $dir && sml $fileName",
+               <br> "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt.exe && $dir$fileNameWithoutExt.exe",
+               <br> "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt.exe && $dir$fileNameWithoutExt.exe",
+           <br> },
+            
+           <br> "window.zoomLevel": 1,
+        <br>    
+       <br> }
+    </div>
+    
 </body>
 </html>
